@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(218, 44%, 22%);
+    width: 15rem;
+    height: 25rem;
+    padding: .8rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+    border-radius: 5%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    transform: translate(50%,100%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.card-title {
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-text{
+    font-size: 15px;
+}
